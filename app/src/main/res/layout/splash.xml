@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="#107AB1"
+	android:gravity="center_vertical|center_horizontal">
+
+	<ImageView
+		android:src="@drawable/xox"
+		android:layout_width="200dp"
+		android:layout_height="200dp"
+		android:layout_marginTop="70dp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="curious"
+		android:textColor="#000000"
+		android:textStyle="bold"
+		android:shadowColor="#FFFFFF"
+		android:shadowRadius="1.0"
+		android:layout_marginBottom="50dp"/>
+
+	<ProgressBar
+		android:layout_width="wrap_content"
+		style="?android:attr/progressBarStyleLarge"
+		android:layout_height="wrap_content"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Human vs Human"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textColor="#466789"
+		android:shadowColor="#FFFFFF"
+		android:shadowRadius="1.0"/>
+
+</LinearLayout>
+
